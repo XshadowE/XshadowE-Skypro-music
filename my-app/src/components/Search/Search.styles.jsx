@@ -52,6 +52,7 @@ color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+};
 
 & :-ms-input-placeholder {
   background-color: transparent;
@@ -68,6 +69,7 @@ color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+};
 
 & ::placeholder {
   background-color: transparent;
@@ -76,7 +78,7 @@ color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-`;
+}`;
 export const MainCenterblockH2 = styled.h2`
   font-style: normal;
   font-weight: 400;

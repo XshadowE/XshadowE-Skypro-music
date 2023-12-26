@@ -11,7 +11,7 @@ padding: 34px;
 flex-direction: column;
 align-items: flex-start;
 gap: 10px;
-`
+`;
 
 export const YearList = () => {
     return (

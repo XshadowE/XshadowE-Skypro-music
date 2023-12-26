@@ -18,7 +18,7 @@ font-size: 16px;
 line-height: 24px;
 gap: 15px;
 background-color: black;
-`
+`;
 
 const StyledFilterContent = styled.div`
 padding: 20px 40px 20px 111px;
@@ -28,7 +28,7 @@ font-size: 16px;
 line-height: 24px;
 gap: 15px;
 background-color: black;
-`
+`;
 const FilterButton = styled.button`
 width: 144px;
 font-style: normal;
@@ -38,9 +38,12 @@ line-height: 24px;
 border: 1px solid #ffffff;
 border-radius: 60px;
 padding: 6px 20px;
+color: white;
+background-color: black;
 & :not(:last-child) {
 margin-right: 10px;
-& --active, .--active:hover {
+};
+&: --active, .--active:hover {
     color: #b672ff;
     border-color: #b672ff
 };
@@ -49,8 +52,8 @@ margin-right: 10px;
     color: #ad61ff;
     cursor: pointer;
     background-color: ${props => props.isVisibleAuthor ? "filter__button button-author _btn-text --active" : "filter__button button-author _btn-text" }
-};
-`
+}`;
+
 //const StyledFilterTitle = styled.div``
 //const StyledFilterTitle = styled.div``
 
