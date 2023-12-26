@@ -40,14 +40,16 @@ border-radius: 60px;
 padding: 6px 20px;
 & :not(:last-child) {
 margin-right: 10px;
-& --active, .--active:hover{
+& --active, .--active:hover {
     color: #b672ff;
-    border-color: #b672ff;
+    border-color: #b672ff
+};
 & ::active {
     border-color: #ad61ff;
     color: #ad61ff;
     cursor: pointer;
-background-color: ${props => props.isVisibleAuthor ? "filter__button button-author _btn-text --active" : "filter__button button-author _btn-text" }
+    background-color: ${props => props.isVisibleAuthor ? "filter__button button-author _btn-text --active" : "filter__button button-author _btn-text" }
+};
 `
 //const StyledFilterTitle = styled.div``
 //const StyledFilterTitle = styled.div``

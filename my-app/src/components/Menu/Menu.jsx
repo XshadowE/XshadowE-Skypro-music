@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import * as S from "./Styles";
+import * as S from "./Menu.styles";
 
 function Menu() {
   const [burger, setBurger] = useState(false);
