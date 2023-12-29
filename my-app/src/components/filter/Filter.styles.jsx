@@ -44,3 +44,33 @@ margin-right: 10px;
     
       }
 }`;
+
+export const Author = styled.div`
+position: absolute;
+border-radius: 12px;
+background: #313131;
+padding: 34px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+;`
+
+export const Year = styled.div`
+position: absolute;
+border-radius: 12px;
+background: #313131;
+padding: 34px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+`;
+
+export const Genre = styled.div`
+position: absolute;
+border-radius: 12px;
+background: #313131;
+padding: 34px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+`;
