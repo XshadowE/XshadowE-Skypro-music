@@ -43,19 +43,14 @@ background-color: black;
 & :not(:last-child) {
 margin-right: 10px;
 };
-&: --active, .--active:hover {
-    color: #b672ff;
-    border-color: #b672ff
-};
-& ::active {
-    border-color: #ad61ff;
-    color: #ad61ff;
+&:hover {
+    border-color: ${(props) => (props.$isActive ? "#ffffff" : "#d9b6ff")};
+    color: ${(props) => (props.isActive ? "#ffffff" : "#d9b6ff")};
     cursor: pointer;
-    background-color: ${props => props.isVisibleAuthor ? "filter__button button-author _btn-text --active" : "filter__button button-author _btn-text" }
+    
+      }
 }`;
 
-//const StyledFilterTitle = styled.div``
-//const StyledFilterTitle = styled.div``
 
 function Filter () {
     const [filter, setFilter] = useState("")
@@ -74,24 +69,23 @@ function Filter () {
             <StyledFilterTitle>Искать по:
             <StyledFilterContent>
                 <FilterButton 
-                    
                     onClick={() => onFilterClick (AUTHOR)}>
                     исполнителю
                 </FilterButton>
                 {isVisibleAuthor && <AuthorList />}
             </StyledFilterContent>
             <StyledFilterContent>
-                <div className={isVisibleYear ? "filter__button button-year _btn-text --active" : "filter__button button-year _btn-text"}
+                <FilterButton
                     onClick={() => onFilterClick(YEAR)}>
                     году выпуска
-                </div>
+                </FilterButton>
                 {isVisibleYear && <YearList />}
             </StyledFilterContent>
             <StyledFilterContent>
-                <div className={isVisibleGenre ? "filter__button button-genre _btn-text --active" : "filter__button button-genre _btn-text"}
+                <FilterButton
                     onClick={() => onFilterClick(GENRE)}>
                     жанру
-                </div>
+                </FilterButton>
                 {isVisibleGenre && <GenreList />}
             </StyledFilterContent>
             </StyledFilterTitle>

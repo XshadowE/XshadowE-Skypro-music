@@ -10,16 +10,7 @@ padding: 34px;
 flex-direction: column;
 align-items: flex-start;
 gap: 10px;
-&::active, .--active:hover {
-    color: #b672ff;
-    border-color: #b672ff
-};
-& ::active {
-    border-color: #ad61ff;
-    color: #ad61ff;
-    cursor: pointer;
-}
-`;
+;`
 
 export const AuthorList = () => {
     return (

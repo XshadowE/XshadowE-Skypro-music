@@ -6,7 +6,6 @@ const StyledGenre = styled.div`
 position: absolute;
 border-radius: 12px;
 background: #313131;
-display: inline-flex;
 padding: 34px;
 flex-direction: column;
 align-items: flex-start;
