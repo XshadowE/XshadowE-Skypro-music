@@ -1,6 +1,5 @@
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
-import './Style.css'
 import { useEffect, useState } from "react";
 
 

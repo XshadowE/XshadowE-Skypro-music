@@ -1,14 +1,6 @@
 import Skeleton, { SkeletonTheme } from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
-import './Style.css'
-import {styled} from "styled-components"
-
-const StyledSkeleton = styled.div`
-display: flex;
-flex-direction: row;
-align-items: center;
-margin-bottom: 20px;
-`
+import * as S from "./Sceleton.styles";
 
 function SkeletonTrack() {
   return (
@@ -17,48 +9,48 @@ function SkeletonTrack() {
       highlightColor="#444"
       className="skeleton"
     >
-      <StyledSkeleton>
+      <S.Skeleton>
         <Skeleton width={51} height={51} className="skeleton__block_1" />
         <Skeleton width={250} height={25} className="skeleton__block_2" />
         <Skeleton width={250} height={25} className="skeleton__block_3" />
         <Skeleton width={250} height={25} className="skeleton__block_4" />
-      </StyledSkeleton>
-      <StyledSkeleton>
+      </S.Skeleton>
+      <S.Skeleton>
         <Skeleton width={51} height={51} className="skeleton__block_1" />
         <Skeleton width={250} height={25} className="skeleton__block_2" />
         <Skeleton width={250} height={25} className="skeleton__block_3" />
         <Skeleton width={250} height={25} className="skeleton__block_4" />
-      </StyledSkeleton>
-      <StyledSkeleton>
+      </S.Skeleton>
+      <S.Skeleton>
         <Skeleton width={51} height={51} className="skeleton__block_1" />
         <Skeleton width={250} height={25} className="skeleton__block_2" />
         <Skeleton width={250} height={25} className="skeleton__block_3" />
         <Skeleton width={250} height={25} className="skeleton__block_4" />
-      </StyledSkeleton>
-      <StyledSkeleton>
+      </S.Skeleton>
+      <S.Skeleton>
         <Skeleton width={51} height={51} className="skeleton__block_1" />
         <Skeleton width={250} height={25} className="skeleton__block_2" />
         <Skeleton width={250} height={25} className="skeleton__block_3" />
         <Skeleton width={250} height={25} className="skeleton__block_4" />
-      </StyledSkeleton>
-      <StyledSkeleton>
+      </S.Skeleton>
+      <S.Skeleton>
         <Skeleton width={51} height={51} className="skeleton__block_1" />
         <Skeleton width={250} height={25} className="skeleton__block_2" />
         <Skeleton width={250} height={25} className="skeleton__block_3" />
         <Skeleton width={250} height={25} className="skeleton__block_4" />
-      </StyledSkeleton>
-      <StyledSkeleton>
+      </S.Skeleton>
+      <S.Skeleton>
         <Skeleton width={51} height={51} className="skeleton__block_1" />
         <Skeleton width={250} height={25} className="skeleton__block_2" />
         <Skeleton width={250} height={25} className="skeleton__block_3" />
         <Skeleton width={250} height={25} className="skeleton__block_4" />
-      </StyledSkeleton>
-      <StyledSkeleton>
+      </S.Skeleton>
+      <S.Skeleton>
         <Skeleton width={51} height={51} className="skeleton__block_1" />
         <Skeleton width={250} height={25} className="skeleton__block_2" />
         <Skeleton width={250} height={25} className="skeleton__block_3" />
         <Skeleton width={250} height={25} className="skeleton__block_4" />
-      </StyledSkeleton>
+      </S.Skeleton>
     </SkeletonTheme>
   )
 }
