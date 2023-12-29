@@ -1,5 +1,4 @@
 import React from "react";
-import "./filter_Item.css";
 import { styled } from "styled-components";
 
 const StyledYear = styled.div`
