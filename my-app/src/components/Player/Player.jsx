@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import SkeletonTrack from "../Skeleton/SkeletonTrack";
-import * as S from "./Player.styles";
+import * as S from "./player.styles";
 
 function Player(props) {
   const [isLoading, setLoading] = useState(true);
