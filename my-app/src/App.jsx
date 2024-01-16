@@ -7,10 +7,14 @@ import SideBar from "./components/Sidebar/SideBar";
 import Search from "./components/Search/Search";
 import Footer from "./components/Footer/footer"
 import Filter from "./components/filter/filter";
+import { AppRoutes } from "./routes";
+import { Favorites } from "./pages/favorites";
 
 function App() {
   return (
     <div className="wrapper">
+      <Favorites />
+      <AppRoutes />
       <Menu />
       <div className="main__centerblock centerblock">
         <Search />

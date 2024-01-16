@@ -62,9 +62,9 @@ export const SidebarList = styled.div`
 export const SidebarItem = styled.div`
 width: 250px;
 height: 150px;
-&: not(:last-child) {
+&:not(:last-child) {
   margin-bottom: 30px;
-`;
+}`;
 
 export const SidebarIcon = styled.div`
   width: 43px;

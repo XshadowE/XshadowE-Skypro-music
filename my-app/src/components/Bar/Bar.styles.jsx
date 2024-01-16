@@ -76,7 +76,7 @@ align-items: center;
   fill: transparent;
   stroke: #acacac;
   cursor: pointer;
-`;
+}`;
 export const BarButtonPrev = styled(BarButton)`
   margin-right: 23px;
 `;
@@ -220,7 +220,7 @@ padding: 5px;
   fill: transparent;
   stroke: #acacac;
   cursor: pointer;
-`;
+}`;
 export const BarTrackPlayLikeSvg = styled.svg`
   width: 14px;
   height: 12px;
@@ -233,7 +233,7 @@ margin-left: 28.5px;
   fill: transparent;
   stroke: #acacac;
   cursor: pointer;
-`;
+}`;
 export const BarTrackPlayDislikeSvg = styled.svg`
   width: 14.34px;
   height: 13px;
