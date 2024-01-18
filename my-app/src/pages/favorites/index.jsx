@@ -1,18 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
+import Player from "../../components/Player/Player";
 
 export const Favorites = () => {
     return (
-        <nav>
-          <ul className="Favorites__list">
-            <li>
-              <Link className="App-link" to="/">
-                Home
-              </Link>
-            </li>
-          </ul>
-        </nav>
+    <div>
+      <h1>Favorite Page</h1>
+      <Player />
+    </div>
       );
     }
     
