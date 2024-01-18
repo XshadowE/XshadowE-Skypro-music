@@ -21,7 +21,7 @@ function App() {
         <Filter />
         <AppRoutes />
       </div>
-        <SideBar />
+      <SideBar />
         <Bar />
         <Footer />
     </div>
