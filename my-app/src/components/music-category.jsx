@@ -1,4 +1,4 @@
-export const Category = [
+export const Categories = [
     {
         id: 1,
         imgUrl: './img/playlist01.png',

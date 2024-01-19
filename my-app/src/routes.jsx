@@ -2,9 +2,7 @@ import {Routes, Route} from "react-router-dom";
 import { Main } from "./pages/main";
 import { Favorites } from "./pages/favorites";
 import { NotFound } from "./pages/not-found";
-import { Category } from "./components/music-category";
-
-
+import { Category } from "./pages/categories";
 
 export const AppRoutes = ({user}) => {
     return (

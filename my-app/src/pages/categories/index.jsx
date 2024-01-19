@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom"
-import { Category } from "../../components/music-category";
+import { Categories } from "../../components/music-category";
 
-export function Categories() {
+export function Category() {
     const {id} = useParams();
-    const category = Category[id];
+    const category = Categories[id];
 
 return (
     <div>
