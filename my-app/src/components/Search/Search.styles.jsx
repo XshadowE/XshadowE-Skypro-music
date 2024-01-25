@@ -61,6 +61,7 @@ color: #ffffff;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+};
 
 & ::-ms-input-placeholder {
   background-color: transparent;

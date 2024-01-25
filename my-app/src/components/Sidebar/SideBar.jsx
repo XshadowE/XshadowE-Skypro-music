@@ -2,7 +2,7 @@ import React from "react";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import { useEffect, useState } from "react";
 import SkeletonSideBar from "../Skeleton/Skeleton";
-import * as S from "./SideBar.styles"
+import * as S from "./SideBar.Styles"
 
 function SideBar() {
   const [isLoading, setLoading] = useState(true);
@@ -58,18 +58,18 @@ function SideBar() {
       <S.SidebarBlock>
         <S.SidebarList>
           <S.SidebarItem>
-            <S.SidebarLink href="#">
+            <S.SidebarLink to="/category/1">
               <S.SidebarImg src="/img/playlist01.png" alt="day's playlist" />
             </S.SidebarLink>
           </S.SidebarItem>
           <S.SidebarItem>
-            <S.SidebarLink href="#">
-              <S.SidebarImg src="/img/playlist02.png" alt="day's playlist" />
+            <S.SidebarLink to="/category/2">
+              <S.SidebarImg src="/img/playlist02.png" alt="100 hit's" />
             </S.SidebarLink>
           </S.SidebarItem>
           <S.SidebarItem>
-            <S.SidebarLink href="#">
-              <S.SidebarImg src="/img/playlist03.png" alt="day's playlist" />
+            <S.SidebarLink to="/category/3">
+              <S.SidebarImg src="/img/playlist03.png" alt="indi" />
             </S.SidebarLink>
           </S.SidebarItem>
         </S.SidebarList>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {styled} from "styled-components";
 
 export const MainSidebar = styled.div`
@@ -62,9 +63,9 @@ export const SidebarList = styled.div`
 export const SidebarItem = styled.div`
 width: 250px;
 height: 150px;
-&: not(:last-child) {
+&:not(:last-child) {
   margin-bottom: 30px;
-`;
+}`;
 
 export const SidebarIcon = styled.div`
   width: 43px;
@@ -74,7 +75,7 @@ export const SidebarIcon = styled.div`
   cursor: pointer;
 `;
 
-export const SidebarLink = styled.a`
+export const SidebarLink = styled(Link)`
   width: 100%;
   height: 100%;
 `;

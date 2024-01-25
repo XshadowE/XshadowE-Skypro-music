@@ -15,7 +15,6 @@ export const FilterTitle = styled.div`
 `;
 
 export const FilterContent = styled.div`
-  padding: 20px 40px 20px 111px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -43,7 +42,7 @@ margin-right: 10px;
     cursor: pointer;
     
       }
-}`;
+`;
 
 export const Author = styled.div`
 position: absolute;
