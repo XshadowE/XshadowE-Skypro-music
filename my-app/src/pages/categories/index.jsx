@@ -7,7 +7,7 @@ export function Category() {
 
 return (
     <div>
-      <h1>Category Page {category}</h1>
+      <h1>Category Page {category.id}</h1>
     </div>
   );
 }
